@@ -73,14 +73,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Assignment Instructions
 
-# To create an image in the image directory
-run:
+# To create an image build in the Docker image directory
 
+run:
 docker image build -t oyekan_oyebisi_coding_assignment11:first .
 
 # To make the docker container run
 
 run:
-
-docker run -dp 775:3000 --name oyekan_oyebisi_coding_assignment11 oyekan_oyebisi_coding_assignment11:first
+docker run -dp 7775:3000 --name oyekan_oyebisi_coding_assignment11 oyekan_oyebisi_coding_assignment11:first
 
